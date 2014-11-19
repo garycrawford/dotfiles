@@ -52,7 +52,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/gcrawfor/.rvm/gems/ruby-2.0.0-p451/bin:/Users/gcrawfor/.rvm/gems/ruby-2.0.0-p451@global/bin:/Users/gcrawfor/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/gcrawfor/bin:/Users/gcrawfor/.rvm/bin:/Users/gcrawfor/.rvm/bin"
+export PATH="$HOME/.rvm/gems/ruby-2.0.0-p451/bin:$HOME/.rvm/gems/ruby-2.0.0-p451@global/bin:$HOME/.rvm/rubies/ruby-2.0.0-p451/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:$HOME/bin:$HOME/.rvm/bin:$HOME/.rvm/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -81,4 +81,4 @@ export PATH="/Users/gcrawfor/.rvm/gems/ruby-2.0.0-p451/bin:/Users/gcrawfor/.rvm/
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # added by travis gem
-[ -f /Users/gcrawfor/.travis/travis.sh ] && source /Users/gcrawfor/.travis/travis.sh
+[ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
