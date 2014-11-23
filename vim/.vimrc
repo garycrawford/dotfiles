@@ -1,6 +1,10 @@
 " initialise all plugins managed by pathogen
 execute pathogen#infect()
 
+" make backspace work like most other apps -
+" http://vim.wikia.com/wiki/Backspace_and_delete_problems
+set backspace=indent,eol,start
+
 " enable syntax highlighting
 syntax on
 filetype plugin indent on
