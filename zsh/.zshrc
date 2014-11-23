@@ -82,3 +82,4 @@ export PATH="$HOME/.rvm/gems/ruby-2.0.0-p451/bin:$HOME/.rvm/gems/ruby-2.0.0-p451
 
 # added by travis gem
 [ -f $HOME/.travis/travis.sh ] && source $HOME/.travis/travis.sh
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
